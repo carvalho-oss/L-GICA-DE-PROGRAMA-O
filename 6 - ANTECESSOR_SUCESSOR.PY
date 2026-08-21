@@ -1,0 +1,16 @@
+import os
+
+# limpa o terminal.
+os.system('cls')
+
+print('SOLICITANDO DADOS =')
+numero = float(input('digite o número: '))
+
+
+#CALCULANDO.
+antecessor = numero - 1
+sucessor = numero + 1
+
+print('\n= EXIBIDO DADOS =')
+print('Antecessor:', antecessor)
+print('Sucessor:', sucessor)
